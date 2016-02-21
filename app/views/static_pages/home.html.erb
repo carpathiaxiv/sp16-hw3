@@ -8,13 +8,13 @@
 	<p><%= "age:   "+user.age.to_s%></p>
 	<br>
 <% end %>
-
+<h3>Cats:</h3>
 <% @cats.each do |cat|%>
 	<h6>cat information: </h6>
 	<p><%="name:   "+cat.name %></p>
 	<br>
 <% end %>
-
+<h3>Todos:</h3>
 <% @todos.each do |todo|%>
 	<h6>todo information: </h6>
 	<p><%= "task:   "+todo.tasks %></p>
